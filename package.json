@@ -9,7 +9,7 @@
     "dev": "electron-vite dev",
     "build": "tsc --noEmit && electron-vite build",
     "pack": "npm run icon && npm run build && electron-builder --dir",
-    "dist": "npm run icon && npm run build && electron-builder --win nsis",
+    "dist": "npm run icon && npm run build && electron-builder --win nsis --publish never",
     "icon": "node scripts/generate-icon.mjs",
     "test": "vitest run",
     "test:watch": "vitest"

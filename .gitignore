@@ -1,0 +1,9 @@
+node_modules/
+dist/
+out/
+release/
+.vite/
+*.log
+PLAN.md
+build/icon-preview.png
+build/icon-source.txt
